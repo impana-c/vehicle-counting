@@ -1,7 +1,7 @@
 settings:
   #################   MODEL CONFIG   ###################
 
-  model_name: 'yolov5s' #[efficientdet-d{i} (0-7) | fasterrcnn-{backbone} | yolov4-p{i} (5,7) | yolov5{i} (s,m,l,x)]
+  model_name: 'yolov7' #[efficientdet-d{i} (0-7) | fasterrcnn-{backbone} | yolov4-p{i} (5,7) | yolov5{i} (s,m,l,x)]
 
   gpu_devices: '0'                     # supports multi-gpus
   num_epochs: 300
