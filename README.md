@@ -7,7 +7,7 @@
 - Count each type of vehicle on each direction.
 
 ## Notebook
-- For inference, use this notebook [![Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15pgDMnvXa-ZgGMeZkbbpg-gqa5Nttfi3?usp=sharing)
+- For inference, use this notebook [![Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ewPDoJzp7xfbUqEPOA-OBxZsEmKh5VmR?usp=sharing)
 - To retrain detection model, follow instructions from [original Yolov5](https://github.com/ultralytics/yolov5)
 
 -----------------------------------------------------------
