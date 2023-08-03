@@ -1,4 +1,4 @@
-# 🏍️ 🚙 Vehicle Tracking using YOLOv5 + DeepSORT 🚌
+# Vehicle Tracking using YOLOv7 + DeepSORT
 
 
 <details open> <summary><strong>Dev logs</strong></summary>
@@ -8,12 +8,12 @@
 </details>
 
 ## Method
-- Use [YOLOv5](https://github.com/ultralytics/yolov5) for vehicle detection task, only considers objects in Region of Interest (ROI)
+- Use [YOLOv7]((https://github.com/WongKinYiu/yolov7)) for vehicle detection task, only considers objects in Region of Interest (ROI)
 - Use [DeepSORT](https://arxiv.org/abs/1703.07402) for car tracking, not need to retrain this model, only inference
 - Use Cosine Similarity to assign object's tracks to most similar directions.
 - Count each type of vehicle on each direction.
 
-## 📔 Notebook
+## Notebook
 - For inference, use this notebook [![Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15pgDMnvXa-ZgGMeZkbbpg-gqa5Nttfi3?usp=sharing)
 - To retrain detection model, follow instructions from [original Yolov5](https://github.com/ultralytics/yolov5)
 
@@ -44,15 +44,10 @@ cam_01.json # match video name
 
 <div align="center"><img width="1000" alt="screen" src="demo/dataset.png"></div>
 
-## 🥇 Pretrained weights
+## Pretrained weights
 - Download finetuned models from on AIC-HCMC-2020 dataset:
 
-Model | Image Size | Weights | Precision | Recall | MAP@0.5 | MAP@0.5-0.95
---- | --- | --- | --- | --- | --- | ---
-YOLOv5s | 640x640 | [link](https://drive.google.com/file/d/1-Y6H3QdRevfBKYDQxgRiR2CRinRVPt9O/view?usp=sharing) | 0.87203 |	0.87356 |	0.91797 |	0.60795
-YOLOv5m | 1024x1024 | [link](https://drive.google.com/file/d/10It3-bByVQUiLV9q4sdJDXQ3bNK9obKi/view?usp=sharing) | 0.89626	| 0.91098 |	0.94711 |	0.66816
-
-## 🌟 **Inference**
+## **Inference**
 
 - File structure
 ```
@@ -101,4 +96,4 @@ track_id |	frame_id |	box	| color |	label |	direction |	fpoint |	lpoint |	fframe
 
 ## References
 - DeepSORT from https://github.com/ZQPei/deep_sort_pytorch
-- YOLOv5 from https://github.com/ultralytics/yolov5
+- YOLOv7 from https://github.com/WongKinYiu/yolov7
