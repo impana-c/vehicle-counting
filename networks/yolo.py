@@ -55,7 +55,7 @@ class YoloBackbone(BaseBackbone):
         super().__init__(**kwargs)
 
 
-        self.model = torch.hub.load('/content/yolov7', 'custom', '/content/yolov7-tiny.pt',force_reload=True, source='local',trust_repo=True)
+        self.model = torch.hub.load('/content/yolov7', 'custom', '/content/main/yolov7-tiny.pt',force_reload=True, source='local',trust_repo=True)
 
         self.class_names = self.model.names
         
