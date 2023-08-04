@@ -39,6 +39,8 @@ cam_01.json # match video name
 
 ## Pretrained weights
 - Download finetuned models from on AIC-HCMC-2020 dataset:
+- pretrained yolov7 weights: https://github.com/WongKinYiu/yolov7/releases
+- change weights on networks/yolo.py
 
 ## **Inference**
 
